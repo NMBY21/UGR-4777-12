@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(195, 202, 200);
+    }
+
+.home{
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer"; 
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 5em;
+    grid-column-gap: 5px;
+    height: 15vh;
+    margin: 0;
+   
+    }
+
+.bet1{
+    grid-area: nav;
+    font-size: 20px;
+    background-color:lightskyblue ;
+    } 
+
+.bet2{
+      grid-area: main;
+      background-color: rgb(195, 202, 200);;
+    } 
+
+.bet2 p2{
+    margin: left;
+    font-size: 2.5em;
+    }
+.bet2 img{
+    float: left;
+    }
+.bet2 p{
+    font-family: sans-serif;
+    margin: 0em 2em;
+    text-indent:px;
+    display: flex;
+    font-size: 2.5em;
+    }              
+
+.bet2 header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    }
+
+.bet3{
+    grid-area: footer;
+    grid-row-gap: 20em;
+    background-color: lightskyblue;
+    }    
+    
+.bet3 footer{
+    text-align: center;
+    padding-right: 10px;
+    font-size: 1.5em;
+    gap: 20em 10em;
+    display: flex;
+    flex: auto;
+            } 
+
+    * {
+        box-sizing: border-box;
+    }
+@media only screen and (min-width:350px) and (max-width:850px) {
+    .bet1 table{
+        table-layout: auto;
+        width: 600px;
+        font-size: 14px;
+                }
+    .bet2 h1{
+        margin: 1em 0em;
+            }
+    .bet2 p{
+        font-size: 20px;
+            }
+    .bet2 img{
+        max-width: 50%;
+        height: auto;
+            }
+    .bet3 footer{
+        gap: 20em 10em;
+        text-align: center;
+        font-size: large;
+        padding-right: 40px;
+        flex-direction: row;
+        display: flex;
+                }
+
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width:851px) and (max-width:1050px) {
+    .bet1 table{
+        table-layout: auto;
+        width: 600px;
+        font-size: 14px;
+                }
+
+    .bet2 p{
+        font-size: 20px;
+        background-color: yellowgreen;
+            }
+
+    .bet2 img{
+        max-width: 50%;
+        height: auto;
+            }
+    .bet2 h1{
+        margin: 1em 0em;
+            }
+    .bet3 footer{
+        gap: 20em 10em;
+        text-align: center;
+        font-size: large;
+        padding-right: 40px;
+        flex-direction: row;
+        display: flex;
+                }
+    
+
+
